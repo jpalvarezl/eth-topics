@@ -1,8 +1,8 @@
-// #[cfg_attr(test, derive(PartialEq, Debug))]
-// pub struct TopicSignature {
-//     pub topic: Topic,
-//     pub arguments: Vec<TopicArgument>,
-// }
+#[cfg_attr(test, derive(PartialEq, Debug))]
+pub struct TopicSignature {
+    pub topic_name: String,
+    pub arguments: Vec<TopicArgument>,
+}
 
 #[derive(Debug)]
 #[cfg_attr(test, derive(PartialEq))]
